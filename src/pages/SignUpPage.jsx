@@ -89,9 +89,11 @@ const SignUpPage = () => {
 					</button>
 					<p className="font-nunito">
 						Already have an account?{' '}
-						<span className="text-[#d87234] hover:underline cursor-pointer">
-							Login
-						</span>
+						<a href="http://localhost:5173/login">
+							<span className="text-[#d87234] hover:underline cursor-pointer">
+								Login
+							</span>
+						</a>
 					</p>
 				</div>
 			</div>

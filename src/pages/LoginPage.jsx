@@ -70,11 +70,7 @@ const LoginPage = () => {
 						<p className="font-nunito text-center">
 							Don't have an account?{' '}
 							<span className="text-[#D87234] hover:underline cursor-pointer ">
-								<a
-									href="http://localhost:5173/signup"
-									target="_blank">
-									Sign Up
-								</a>
+								<a href="http://localhost:5173/signup">Sign Up</a>
 							</span>
 						</p>
 					</form>
