@@ -1,6 +1,8 @@
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import { LoginPage } from '../pages/LoginPage'
 import { SignUpPage } from '../pages/SignUpPage';
+import HomePage from '../pages/HomePage';
+
 
 export default function AppRoutes() {
 	return (
@@ -19,6 +21,7 @@ export default function AppRoutes() {
 					path="/"
 					element={<Navigate to="/signUp" />}
 				/>
+				<Route path='/home' element={<HomePage/>}/>
 			</Routes>
 		</BrowserRouter>
 	);
